@@ -1,0 +1,8 @@
+zuul:
+  routes:
+    portainer:
+      path: /portainer/**
+      url: http://localhost:9000/
+      stripPrefix: true
+      sensitiveHeaders:
+      addProxyHeaders: false
